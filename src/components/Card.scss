@@ -1,0 +1,62 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .container {
+        ;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 10px 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .stars {
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 0;
+        margin-left: 8px;
+    }
+
+    .star {
+        margin: 2px;
+        width: 30px;
+        height: auto;
+        color: yellow;
+        font-size: 20px;
+    }
+
+    .rating {
+        margin-top: 10px;
+        font-size: 15px;
+        color: grey;
+    }
+
+    h4 {
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+
+    p {
+        color: grey;
+        padding-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 8px;
+    }
+}
